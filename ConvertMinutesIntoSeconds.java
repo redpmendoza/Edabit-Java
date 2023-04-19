@@ -1,5 +1,5 @@
 public class ConvertMinutesIntoSeconds {
-	public static int convert(int minutes) {
-		return minutes * 60;
+	public static int howManySeconds(int hours) {
+		return hours * 60 * 60;
   }
 }
